@@ -5,7 +5,7 @@ function getInputValue() {
     if (inputVal == '') {
         return alert('Provide Your Github Repo Link!');
     }
-    if (inputVal.includes('szsupunma')) {
+    if (inputVal.includes('NetworkChukka')) {
         return alert(
             "You Can't Deploy Official Repo As It Has Been Blacklisted By Heroku. Simply Fork The Repo & Then Input Your Forked Repo Link Here!",
         );
